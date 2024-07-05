@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+/* navigation bar */
+.navbar {
+	display: flex;
+	width: 100%;
+	box-shadow: 0 0 30px #E8EC16;
+	background: #E8EC16;
+	justify-content: space-between;
+	text-align: center;
+	padding: 15px 100px;
+	position: sticky;
+	overflow: hidden;
+	top: 0;
+	transition: 0.3s;
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+	margin: auto 0;
+}
+
+.navbar ul li {
+	margin: 0 20px;
+	padding-right: 15px;
+}
+
+.navbar ul li a {
+	color: #2b2b2b;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	padding: 5px 10px;
+	transition: 0.3s;
+}
+
+.navbar ul li:hover a {
+	color: #d34e4e;
+}
+
+.screen {
+    width: 100%;
+	color: #000;
+}
+
+.title {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 65px;
+}
+
+.content_bar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 60px;
+}
+
+.content_bar .content {
+	position: relative;
+	background: #E8EC16;
+	border-radius: 20px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.75);
+	overflow: hidden;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.song_name {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.artist_name {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+	margin-top: 4.7%;
+	background-color: #000;
+}
+
+footer h3 {
+	padding-top: 2%;
+	color: #fff;
+	font-size: 24px;
+}
+
+footer img {
+	margin: 2%;
+}
+
+.social {
+	text-align: center;
+}
+
+.copyright {
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 30px;
+	color: whitesmoke;
+	margin-top: 3%;
+}
+
+.footer-hr {
+	margin-left: 50px;
+	margin-right: 50px;
+	opacity: 40%;
+}
